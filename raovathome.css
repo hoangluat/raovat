@@ -1,0 +1,19 @@
+/*slide ninh*/
+.carousel-item {
+    height: 300px;
+}
+@keyframes moveInLeft{0%{opacity:0;transform:translate(-100px)}80%{transform:translate(10px)}100%{opacity:1;transform:translate(0)}}
+@keyframes moveInRight{0%{opacity:0;transform:translate(100px)}80%{transform:translate(-10px)}100%{opacity:1;transform:translate(0)}}
+@keyframes moveInBottom{0%{opacity:0;transform:translateY(30px)}100%{opacity:1;transform:translateY(0)}}
+
+.carousel-item img{
+	height: 300px;
+}
+.carousel-caption h5{
+	animation:moveInLeft 2s ease-out;
+	
+
+}
+.carousel-caption p{
+	animation:moveInRight 2s ease-out;
+/*end slide*/
